@@ -1,0 +1,43 @@
+body{
+    margin:0; /* Todo desde el borde */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display:flex; /* Sistema de layout, alinear */
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px; /* Espaciado interno dentro del navbar */
+}
+
+.navbar ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+    margin:0;
+    padding:0; /* Elimina el espacio interno del <ul> que viene por defecto */
+}
+
+.navbar a{
+    text-decoration:none; /* Quitar subrayado */
+    color:black;
+    font-weight:500;
+}
+
+.navbar a:hover{ /* Efecto con el mouse */
+    color:#0077ff;
+}
+
+/* SECTIONS */
+
+section{
+    min-height:100vh; /* viewport height */
+    padding:60px;
+}
+
+html{
+    scroll-behavior:smooth; /* desplazamiento suave */
+}
