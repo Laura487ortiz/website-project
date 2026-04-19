@@ -14,3 +14,6 @@ The goal of this project is to practice building a website and collaborating thr
 ## Authors
 - Nicolas Chaparro
 - Laura Ortiz
+
+# Commits
+Primer commit de prueba para validar el funcionamiento de la página web
