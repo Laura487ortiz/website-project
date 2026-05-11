@@ -41,3 +41,24 @@ section{
 html{
     scroll-behavior:smooth; /* desplazamiento suave */
 }
+
+.contact-form{
+    max-width: 500px;
+    margin: auto;
+    align-items:center;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.contact-form button{
+    padding: 10px 20px;
+}
+
+.location{
+    margin-top: 20px;
+}
